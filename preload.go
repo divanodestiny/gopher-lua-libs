@@ -23,6 +23,7 @@ import (
 	telegram "github.com/vadv/gopher-lua-libs/telegram"
 	template "github.com/vadv/gopher-lua-libs/template"
 	time "github.com/vadv/gopher-lua-libs/time"
+	"github.com/vadv/gopher-lua-libs/toml"
 	xmlpath "github.com/vadv/gopher-lua-libs/xmlpath"
 	yaml "github.com/vadv/gopher-lua-libs/yaml"
 	zabbix "github.com/vadv/gopher-lua-libs/zabbix"
@@ -59,6 +60,7 @@ func Preload(L *lua.LState, options []string) {
 		humanize.Preload(L)
 		chef.Preload(L)
 		template.Preload(L)
+		toml.Preload(L)
 	}
 	for _, op := range options {
 		switch op {
@@ -112,6 +114,8 @@ func Preload(L *lua.LState, options []string) {
 			chef.Preload(L)
 		case "template":
 			template.Preload(L)
+		case "toml":
+			toml.Preload(L)
 		}
 	}
 }
