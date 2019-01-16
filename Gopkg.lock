@@ -2,83 +2,99 @@
 
 
 [[projects]]
-  digest = "1:a8e5037a4d69c6ad7f36cc3ef3202c04eaaba0ef0fab1d960affc6452a8edf25"
+  digest = "1:9f3b30d9f8e0d7040f729b82dcbc8f0dead820a133b3147ce355fc451f32d761"
+  name = "github.com/BurntSushi/toml"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "3012a1dbe2e4bd1391d42b32f0577cb7bbc7f005"
+  version = "v0.3.1"
+
+[[projects]]
+  digest = "1:c08f898868838e16e9f6caa00ea6eeb2bcbfcd8a374f602c3e3b305092079a3f"
   name = "github.com/cbroglie/mustache"
   packages = ["."]
-  pruneopts = "NUT"
+  pruneopts = "UT"
   revision = "eb931a9d20042e51d8a3a9ad5a9ba9bc8282c564"
   version = "v1.0.1"
 
 [[projects]]
-  digest = "1:a9a80e9515397ba989a52af67b5fa27607a19513ac8e9f1e3456033879341e72"
+  digest = "1:b95738a1e6ace058b5b8544303c0871fc01d224ef0d672f778f696265d0f2917"
   name = "github.com/chzyer/readline"
   packages = ["."]
-  pruneopts = "NUT"
+  pruneopts = "UT"
   revision = "62c6fe6193755f722b8b8788aa7357be55a50ff1"
   version = "v1.4"
 
 [[projects]]
-  digest = "1:b7ffca49e9cfd3dfb04a8e0a59347708c6f78f68476a32c5e0a0edca5d1b258c"
+  digest = "1:6f9339c912bbdda81302633ad7e99a28dfa5a639c864061f1929510a9a64aa74"
   name = "github.com/dustin/go-humanize"
   packages = ["."]
-  pruneopts = "NUT"
+  pruneopts = "UT"
   revision = "9f541cc9db5d55bce703bd99987c9d5cb8eea45e"
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:13e9a236e56e18fecb73f5b2f2eb7f60060a1a9bc27e5a7328ab22e275ecb63e"
+  digest = "1:ec6f9bf5e274c833c911923c9193867f3f18788c461f76f05f62bb1510e0ae65"
   name = "github.com/go-sql-driver/mysql"
   packages = ["."]
-  pruneopts = "NUT"
+  pruneopts = "UT"
   revision = "72cd26f257d44c1114970e19afddcd812016007e"
   version = "v1.4.1"
 
 [[projects]]
-  digest = "1:4d5fa9f49e5bf3d55c16ff562af9e3231f9ac5ccf495927fd0555f4607c15475"
+  digest = "1:8ef506fc2bb9ced9b151dafa592d4046063d744c646c1bbe801982ce87e4bc24"
   name = "github.com/lib/pq"
   packages = [
     ".",
     "oid",
   ]
-  pruneopts = "NUT"
+  pruneopts = "UT"
   revision = "4ded0e9383f75c197b3a2aaa6d590ac52df6fd79"
   version = "v1.0.0"
 
 [[projects]]
-  digest = "1:c9724c929d27a14475a45b17a267dbc60671c0bc2c5c05ed21f011f7b5bc9fb5"
+  digest = "1:4a49346ca45376a2bba679ca0e83bec949d780d4e927931317904bad482943ec"
   name = "github.com/mattn/go-sqlite3"
   packages = ["."]
-  pruneopts = "NUT"
+  pruneopts = "UT"
   revision = "c7c4067b79cc51e6dfdcef5c702e74b1e0fa7c75"
   version = "v1.10.0"
 
 [[projects]]
-  digest = "1:a45ae66dea4c899d79fceb116accfa1892105c251f0dcd9a217ddc276b42ec68"
+  digest = "1:53bc4cd4914cd7cd52139990d5170d6dc99067ae31c56530621b18b35fc30318"
   name = "github.com/mitchellh/mapstructure"
   packages = ["."]
-  pruneopts = "NUT"
+  pruneopts = "UT"
   revision = "3536a929edddb9a5b34bd6861dc4a9647cb459fe"
   version = "v1.1.2"
 
 [[projects]]
-  digest = "1:c6d6892ef3af2632f7892ed12239190002925e009afca91b0336c2f372e64610"
+  branch = "toml2"
+  digest = "1:a0ebc0f58421c8ce32c24c09e2ccb62ea3d30ced69a6c440568f0d2dcd9f2b38"
+  name = "github.com/pelletier/go-toml"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "7f14145ab9c8afe473383d3daa1e54e5fece02e9"
+
+[[projects]]
+  digest = "1:420817f94b6c172dabb8a054d0b2d257d7437a87c7c8c7ee432bc008a577fc46"
   name = "github.com/technoweenie/multipartstreamer"
   packages = ["."]
-  pruneopts = "NUT"
+  pruneopts = "UT"
   revision = "a90a01d73ae432e2611d178c18367fbaa13e0154"
   version = "v1.0.1"
 
 [[projects]]
   branch = "master"
-  digest = "1:9a9d3214c3f80e9c7708dbadd1ad98cd2b237a41adfb6099cd2d13a75486a9af"
+  digest = "1:8c4037cfe969b0ce37e1bd68b7dcc47b51c5ee78328b23627015af7d8bc72606"
   name = "github.com/yuin/gluamapper"
   packages = ["."]
-  pruneopts = "NUT"
+  pruneopts = "UT"
   revision = "d836955830e75240d46ce9f0e6d148d94f2e1d3a"
 
 [[projects]]
   branch = "master"
-  digest = "1:286bb14ef80f61cf33d7b5d976cdf10a6df4f279b20cca7337a8828010342959"
+  digest = "1:132dd4937fb61d24190982dfb6febd801dd609293f3e5125aa7691bd9b68bf2d"
   name = "github.com/yuin/gopher-lua"
   packages = [
     ".",
@@ -86,8 +102,8 @@
     "parse",
     "pm",
   ]
-  pruneopts = "NUT"
-  revision = "d1ab6d058001094c8439baf8949205801b1404b6"
+  pruneopts = "UT"
+  revision = "732aa6820ec4fb93d60c4057dd574c33db8ad4e7"
 
 [[projects]]
   branch = "master"
@@ -97,30 +113,30 @@
     "html",
     "html/atom",
   ]
-  pruneopts = "NUT"
-  revision = "610586996380ceef02dd726cc09df7e00a3f8e56"
+  pruneopts = "UT"
+  revision = "915654e7eabcea33ae277abbecf52f0d8b7a9fdc"
 
 [[projects]]
   digest = "1:c25289f43ac4a68d88b02245742347c94f1e108c534dda442188015ff80669b3"
   name = "google.golang.org/appengine"
   packages = ["cloudsql"]
-  pruneopts = "NUT"
-  revision = "4a4468ece617fc8205e99368fa2200e9d1fad421"
-  version = "v1.3.0"
+  pruneopts = "UT"
+  revision = "e9657d882bb81064595ca3b56cbe2546bbabf7b1"
+  version = "v1.4.0"
 
 [[projects]]
   branch = "v2"
-  digest = "1:ebcfe9ac18161a5a837fe7227b3c168d815a2d4b09864a1638c7f1d4d718d406"
+  digest = "1:c78e25c1cf10b1d9d1dd866f3f246f239b66d4648a16e3da1c098444e288c0e9"
   name = "gopkg.in/xmlpath.v2"
   packages = ["."]
-  pruneopts = "NUT"
+  pruneopts = "UT"
   revision = "860cbeca3ebcc600db0b213c0e83ad6ce91f5739"
 
 [[projects]]
-  digest = "1:18108594151654e9e696b27b181b953f9a90b16bf14d253dd1b397b025a1487f"
+  digest = "1:4d2e5a73dc1500038e504a8d78b986630e3626dc027bc030ba5c75da257cdb96"
   name = "gopkg.in/yaml.v2"
   packages = ["."]
-  pruneopts = "NUT"
+  pruneopts = "UT"
   revision = "51d6538a90f86fe93ac480b35f37b2be17fef232"
   version = "v2.2.2"
 
@@ -128,12 +144,14 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/BurntSushi/toml",
     "github.com/cbroglie/mustache",
     "github.com/chzyer/readline",
     "github.com/dustin/go-humanize",
     "github.com/go-sql-driver/mysql",
     "github.com/lib/pq",
     "github.com/mattn/go-sqlite3",
+    "github.com/pelletier/go-toml",
     "github.com/technoweenie/multipartstreamer",
     "github.com/yuin/gluamapper",
     "github.com/yuin/gopher-lua",
