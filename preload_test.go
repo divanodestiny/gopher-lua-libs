@@ -8,7 +8,7 @@ import (
 
 func TestPreload(t *testing.T) {
 	state := lua.NewState()
-	Preload(state)
+	Preload(state, nil)
 	if err := state.DoFile("./preload.lua"); err != nil {
 		t.Fatalf("execute test: %s\n", err.Error())
 	}
